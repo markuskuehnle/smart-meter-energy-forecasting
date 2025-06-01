@@ -15,6 +15,16 @@ uv venv .venv
 
 activate your venv, then continue with the next step
 
+```bash
+uv add pip
+```
+
+add packages
+
+```bash
+uv add pandas
+```
+
 ### Install Pre-Commit Hooks
 
 on CLI run:
