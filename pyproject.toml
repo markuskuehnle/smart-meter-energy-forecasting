@@ -1,5 +1,5 @@
 [project]
-name = "talent-value-forecast"
+name = "smart-meter-energy-forecast"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
