@@ -14,7 +14,7 @@ __pycache__/
 asruns/
 
 # Ignore all raw data
-data/raw/
+data/raw/Data Smart Meter.csv
 
 # (Optional) Specifically exclude a file if needed
 # !data/raw/README.md
