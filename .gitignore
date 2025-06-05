@@ -6,3 +6,4 @@ asruns/
 *_cache
 .DS_storedata/raw/smart_meter_data.csv
 .DS_Store
+data/raw/*
