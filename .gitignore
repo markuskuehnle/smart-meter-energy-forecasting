@@ -1,9 +1,20 @@
+# Ignore all virtual envs
 .venv/
 venv/
+
+# Ignore Jupyter and Python cache
 .ipynb_checkpoints/
 __pycache__/
-asruns/
 *_cache
-.DS_storedata/raw/smart_meter_data.csv
+
+# macOS trash
 .DS_Store
-data/raw/*
+
+# Custom dirs
+asruns/
+
+# Ignore all raw data
+data/raw/
+
+# (Optional) Specifically exclude a file if needed
+# !data/raw/README.md
