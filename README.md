@@ -31,7 +31,7 @@ The project follows the **CRISP-DM** framework and uses a modular notebook pipel
 - `04_data_encoding.ipynb`: One-hot encoding
 - `05_time_series_analysis.ipynb`: Seasonality, temporal profiles, Granger tests
 - `06_train_test_split.ipynb`: Chronological 80/20 split
-- `07_var_forecast.ipynb`: Baseline using autoregression
+- `07_naive_forecast.ipynb`: Simple baseline using lag-1
 - `08_lgbm_forecast.ipynb`: Tuned LightGBM with SHAP explainability
 - `09_smart_home_use_cases.ipynb`: Real-world applications using model predictions
 
