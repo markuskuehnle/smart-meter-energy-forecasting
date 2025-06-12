@@ -2,7 +2,7 @@
 
 ## 1. **Executive Summary**
 
-This project delivers short-term electricity consumption forecasts for smart homes using smart meter and weather sensor data. By applying a structured machine learning pipeline, a LightGBM model was trained and achieved a **mean absolute error (MAE) of 0.068 kW**, substantially outperforming a statistical VAR baseline (0.63 kW).
+This project delivers short-term electricity consumption forecasts for smart homes using smart meter and weather sensor data. By applying a structured machine learning pipeline, a LightGBM model was trained and achieved a **mean absolute error (MAE) of 0.1637 kW**, substantially outperforming a naive baseline (0.2403 kW).
 
 Beyond predictive accuracy, the model enables **practical smart home features** like high-usage warnings and solar self-consumption tracking—laying the groundwork for smarter energy use and reduced grid dependence.
 
@@ -16,7 +16,7 @@ While smart homes collect detailed consumption and weather data, households ofte
 
 ### Value Delivered
 
-- Forecast precision: **MAE = 0.068 kW** (LGBM), outperforming **0.63 kW** (VAR baseline)  
+- Forecast precision: **MAE = 0.1637 kW** (LGBM), outperforming **0.2403 kW** (naive baseline)  
 - Enabled smart home use cases: usage warnings, solar tracking, SHAP-driven transparency  
 - Foundation for CO₂-aware and cost-optimized decision support
 
