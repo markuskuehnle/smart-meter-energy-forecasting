@@ -107,7 +107,11 @@ uv venv .venv
 activate your venv, then continue with the next step
 
 ```bash
-uv add pip
+uv init
+```
+
+```bash
+uv add pip ipykernel
 ```
 
 add packages from pyproject.toml
